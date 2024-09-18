@@ -1,0 +1,26 @@
+body {
+    background-image: url(image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#clock {
+    font-family: monospace;
+    font-size: 5rem;
+    font-weight: bold;
+    text-align: center;
+    color: rgba(207, 218, 202, 0.733);
+    backdrop-filter: blur(1px);
+    background-color: rgb(240, 255, 255, 0.01);
+    width: 100%;
+}
